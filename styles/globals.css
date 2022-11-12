@@ -1,26 +1,27 @@
-html,
+@font-face {
+  font-family: Calibri;
+  src: url("../public/fonts/calibri.ttf");
+}
+
+@font-face {
+  font-family: Calibri Bold;
+  src: url("../public/fonts/calibri-bold.ttf");
+}
+
+@font-face {
+  font-family: Calibri Light;
+  src: url("../public/fonts/calibri-light.ttf");
+}
+
 body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: Calibri !important;
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
-}
+.heading{
+  text-align: center;
+  font-size: 56px;
+  text-transform: uppercase;
 
-* {
-  box-sizing: border-box;
-}
-
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-  body {
-    color: white;
-    background: black;
-  }
+  margin-block: 32px;
+  color: #b24e28;
 }
